@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditya Singh | Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      min-height: 100vh;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px 40px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      background: linear-gradient(90deg, #00dbde, #fc00ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: fadeDown 1s ease;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      opacity: 0.9;
+      animation: fadeUp 1.2s ease;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 20px;
+      padding: 30px;
+      margin-bottom: 30px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+      animation: fadeUp 1.5s ease;
+    }
+
+    .card h2 {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+      color: #00dbde;
+    }
+
+    .card p {
+      line-height: 1.7;
+      font-size: 1rem;
+      opacity: 0.95;
+    }
+
+    .tags {
+      margin-top: 15px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .tag {
+      background: linear-gradient(90deg, #00dbde, #fc00ff);
+      color: #000;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 10px;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeDown {
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Aditya Singh</h1>
+    <p>B.Tech • 1st Year • CSE (Core)</p>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>👋 About Me</h2>
+      <p>
+        I am Aditya Singh, a passionate Computer Science Engineering (Core) student currently
+        in my first year of B.Tech. I love building real-world tech solutions, exploring hardware
+        and software integration, and participating in competitive hackathons.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>🏆 Achievements</h2>
+      <p>
+        Hackathon Winner 🥇 — Led a team and worked on challenging hardware prototyping and
+        system integration. Even as a first-year student, I embraced complex problems and
+        learned how to build under pressure.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>💡 Skills & Interests</h2>
+      <div class="tags">
+        <div class="tag">C / C++</div>
+        <div class="tag">Python</div>
+        <div class="tag">Web Development</div>
+        <div class="tag">ESP32</div>
+        <div class="tag">IoT</div>
+        <div class="tag">Hackathons</div>
+        <div class="tag">Problem Solving</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>🚀 Vision</h2>
+      <p>
+        My goal is to grow as a strong software engineer while continuing to explore hardware
+        systems, innovation, and startup culture. I believe learning by building is the best
+        way forward.
+      </p>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2026 Aditya Singh • Built with ❤️ & Code
+  </footer>
+
+</body>
+</html>
